@@ -1,10 +1,10 @@
 -- CreateTable
-CREATE TABLE "Car" (
+CREATE TABLE "car" (
     "id" SERIAL NOT NULL,
-    "brand" TEXT NOT NULL,
-    "model" TEXT NOT NULL,
+    "brandy" TEXT NOT NULL,
+    "modelo" TEXT NOT NULL,
     "created_at" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
     "bought" BOOLEAN NOT NULL DEFAULT false,
 
-    CONSTRAINT "Car_pkey" PRIMARY KEY ("id")
+    CONSTRAINT "car_pkey" PRIMARY KEY ("id")
 );
